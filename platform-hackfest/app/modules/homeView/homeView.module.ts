@@ -1,7 +1,21 @@
-import {NgModule}from "@angular/core";
-import {NativeScriptModule}from "nativescript-angular/platform";
-import {SharedModule}from "../../shared/shared.module";
-import {HomeViewComponent}from "./homeView.component";
+import {
+    NgModule
+}
+from "@angular/core";
+
+import {
+    NativeScriptModule
+}
+from "nativescript-angular/platform";
+
+import {
+    SharedModule
+}
+from "../../shared/shared.module";
+import {
+    HomeViewComponent
+}
+from "./homeView.component";
 /// module additional imports
 
 import * as common from "./shared";

@@ -1,9 +1,6 @@
 import {Component}from "@angular/core";
-
 import * as common from "./shared";
 import * as shared from "../../shared";
-
-import * as PushNotifications from "nativescript-push-notifications";
 import { Label } from "ui/label";
 import { Button } from "ui/button";
 import {EventData} from "data/observable";
@@ -65,6 +62,7 @@ export class HomeViewComponent {
                 });
             }
         };
+        const PushNotifications = require("nativescript-push-notifications");        
         PushNotifications.register(settings, data => {
             console.log('REGISTRATION ID: ' + JSON.stringify(data));
             this.id = data;

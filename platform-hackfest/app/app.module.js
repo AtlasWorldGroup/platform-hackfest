@@ -6,7 +6,7 @@ var router_1 = require("nativescript-angular/router");
 var app_routes_1 = require("./app.routes");
 var app_component_1 = require("./app.component");
 /// additional required modules
-var drawer_module_1 = require("./navigation/drawer/drawer.module");
+var tabstrip_module_1 = require("./navigation/tabstrip/tabstrip.module");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -16,7 +16,7 @@ var AppModule = (function () {
                 platform_1.NativeScriptModule,
                 router_1.NativeScriptRouterModule,
                 router_1.NativeScriptRouterModule.forRoot(app_routes_1.appRoutes),
-                drawer_module_1.DrawerMenuModule
+                tabstrip_module_1.TabstripMenuModule
             ],
             declarations: [
                 app_component_1.AppComponent

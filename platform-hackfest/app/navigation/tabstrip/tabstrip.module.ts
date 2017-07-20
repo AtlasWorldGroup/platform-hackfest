@@ -11,15 +11,15 @@ import * as common from "../shared";
 import * as shared from "../../shared";
 
 @NgModule({
-    imports: [
-        NativeScriptModule,
-        NativeScriptRouterModule,
-        tabMenuRouting,
-        SharedModule,
-        ...common.MODULES
-    ],
-    declarations: [
-        TabMenuComponent
-    ]
+  imports: [
+    NativeScriptModule,
+    NativeScriptRouterModule,
+    tabMenuRouting,
+    SharedModule,
+    ...common.MODULES
+  ],
+  declarations: [
+    TabMenuComponent
+  ]
 })
 export class TabstripMenuModule { }

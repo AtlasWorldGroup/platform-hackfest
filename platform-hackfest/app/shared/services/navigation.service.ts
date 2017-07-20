@@ -33,9 +33,10 @@ export class NavigationService {
     constructor(
         private _router: Router
     ) {
-        this._mode = this._modes.DRAWER;
+        this._mode = this._modes.TABSTRIP;
         this._routes = [
             { path: "homeView", title: "Home View", icon: "\uf015" },
+{ path: "pushView", title: "Enable Push", icon: "\uf019" },
 /// navigation routes
         ];
 

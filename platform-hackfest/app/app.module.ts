@@ -1,7 +1,16 @@
-import { NgModule } from "@angular/core";
+import {
+    NgModule
+}
+from "@angular/core";
 
-import { NativeScriptModule } from "nativescript-angular/platform";
-import { NativeScriptRouterModule } from "nativescript-angular/router";
+import {
+    NativeScriptModule
+}
+from "nativescript-angular/platform";
+import {
+    NativeScriptRouterModule
+}
+from "nativescript-angular/router";
 /// additional imports
 
 import {
@@ -16,9 +25,9 @@ from "./app.component";
 /// additional required modules
 
 import {
-    DrawerMenuModule as NavigationModule
+    TabstripMenuModule as NavigationModule
 }
-from "./navigation/drawer/drawer.module";
+from "./navigation/tabstrip/tabstrip.module";
 
 @
 NgModule({

@@ -7,9 +7,10 @@ var NavigationService = (function () {
     function NavigationService(_router) {
         this._router = _router;
         this._modes = enums_1.NavigationModes;
-        this._mode = this._modes.DRAWER;
+        this._mode = this._modes.TABSTRIP;
         this._routes = [
             { path: "homeView", title: "Home View", icon: "\uf015" },
+            { path: "pushView", title: "Enable Push", icon: "\uf019" },
         ];
         this._openDrawer$ = new rxjs_1.BehaviorSubject(false);
     }

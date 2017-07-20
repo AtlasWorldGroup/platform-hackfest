@@ -7,6 +7,6 @@ import * as shared from "../../../shared";
 
 @
 Injectable()
-export class HomeViewService {
+export class PushViewService {
     /// service class
 }

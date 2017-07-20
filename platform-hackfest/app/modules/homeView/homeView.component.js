@@ -1,7 +1,6 @@
 "use strict";
 var core_1 = require("@angular/core");
 var common = require("./shared");
-var PushNotifications = require("nativescript-push-notifications");
 var dialogs = require("ui/dialogs");
 var HomeViewComponent = (function () {
     /// component additional properties
@@ -46,6 +45,7 @@ var HomeViewComponent = (function () {
                 });
             }
         };
+        var PushNotifications = require("nativescript-push-notifications");
         PushNotifications.register(settings, function (data) {
             console.log('REGISTRATION ID: ' + JSON.stringify(data));
             _this.id = data;
