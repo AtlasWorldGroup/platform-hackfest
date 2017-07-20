@@ -1,16 +1,7 @@
-import {
-    NgModule
-}
-from "@angular/core";
+import { NgModule } from "@angular/core";
 
-import {
-    NativeScriptModule
-}
-from "nativescript-angular/platform";
-import {
-    NativeScriptRouterModule
-}
-from "nativescript-angular/router";
+import { NativeScriptModule } from "nativescript-angular/platform";
+import { NativeScriptRouterModule } from "nativescript-angular/router";
 /// additional imports
 
 import {

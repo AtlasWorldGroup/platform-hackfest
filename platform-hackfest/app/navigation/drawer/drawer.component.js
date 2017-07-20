@@ -29,7 +29,7 @@ var DrawerMenuComponent = (function () {
     };
     __decorate([
         core_1.ViewChild(angular_1.RadSideDrawerComponent), 
-        __metadata('design:type', (typeof (_a = typeof angular_1.RadSideDrawerComponent !== 'undefined' && angular_1.RadSideDrawerComponent) === 'function' && _a) || Object)
+        __metadata('design:type', angular_1.RadSideDrawerComponent)
     ], DrawerMenuComponent.prototype, "drawerComponent", void 0);
     DrawerMenuComponent = __decorate([
         core_1.Component({
@@ -37,10 +37,9 @@ var DrawerMenuComponent = (function () {
             selector: "ns-drawer-menu",
             templateUrl: "drawer.component.html"
         }), 
-        __metadata('design:paramtypes', [shared.NavigationService, (typeof (_b = typeof core_1.ChangeDetectorRef !== 'undefined' && core_1.ChangeDetectorRef) === 'function' && _b) || Object, (typeof (_c = typeof router_1.Router !== 'undefined' && router_1.Router) === 'function' && _c) || Object])
+        __metadata('design:paramtypes', [shared.NavigationService, core_1.ChangeDetectorRef, router_1.Router])
     ], DrawerMenuComponent);
     return DrawerMenuComponent;
-    var _a, _b, _c;
 }());
 exports.DrawerMenuComponent = DrawerMenuComponent;
 //# sourceMappingURL=drawer.component.js.map

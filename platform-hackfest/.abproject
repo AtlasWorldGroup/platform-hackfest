@@ -2,7 +2,7 @@
   "ProjectName": "platform-hackfest",
   "ProjectGuid": "1cb3d24f-278c-43e3-a22e-e8f1f47ddb1e",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.platformhackfest",
+  "AppIdentifier": "org.nativescript.hackfest",
   "DisplayName": "platform-hackfest",
   "Author": "",
   "Description": "platform-hackfest",
